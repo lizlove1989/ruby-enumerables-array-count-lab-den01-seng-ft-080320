@@ -1,7 +1,7 @@
 def count_strings(array)
  array.count do |index|
-   if index.is_a? 
-     return index
+   if index.is_a? String
+     return array
  end
 end
   
