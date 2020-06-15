@@ -1,6 +1,6 @@
 def count_strings(array)
  array.count do |index|
-   index === ""
+   if index
  end
 end
   
